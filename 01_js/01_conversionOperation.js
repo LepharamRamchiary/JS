@@ -35,8 +35,15 @@
 // let age = undefined, => undefined
 
 
-let numberToString = String(age)
-console.log(typeof numberToString);
-console.log(numberToString);
+// let numberToString = String(age)
+// console.log(typeof numberToString);
+// console.log(numberToString);
 
+let x=2
+let y=x++
+console.log(`x:${x} and y:${y}`)
+
+let a = 2
+let b = ++a;
+console.log(`a:${a} and b:${b}`)
 
