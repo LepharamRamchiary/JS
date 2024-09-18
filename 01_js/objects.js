@@ -14,7 +14,7 @@ const JsUser = {
     "full name": "Lepharam Ramchairy",
     age: 16,
     login: false,
-    [mySym] : "Key1formSymbole"
+    [mySym]: "Key1formSymbole"
 }
 
 // console.log(JsUser.name);
@@ -29,16 +29,40 @@ const JsUser = {
 
 
 
-JsUser.greeting = function() {
+JsUser.greeting = function () {
     console.log("Hello js")
 }
 
 
-JsUser.greeting2 = function() {
+JsUser.greeting2 = function () {
     console.log(`Hello js user, ${this.name}`)
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greeting2());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greeting2());
 
 
+// constructor
+
+const tinderUser = new Object() // singleton
+const tinderUser1 = {} //non singleton
+
+tinderUser1.id ="1234"
+tinderUser1.name =" Mainawu"
+tinderUser1.isLoggin = false
+
+// console.log(tinderUser1)
+
+const registerUser = {
+    email: "dipika@gmail.com",
+    fullname: {
+        userfullname: {
+            firstname: "Dipka",
+            lastname: "Bty"
+        }
+    }
+}
+
+
+// console.log(registerUser.fullname);
+// console.log(registerUser.fullname.userfullname.firstname);
