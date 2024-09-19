@@ -66,3 +66,18 @@ const registerUser = {
 
 // console.log(registerUser.fullname);
 // console.log(registerUser.fullname.userfullname.firstname);
+
+
+
+// Objects Destructuring
+
+const course = {
+    name: "JS from MDN",
+    price: 99.9,
+}
+
+const { name: couresName, price: coursePrice} = course
+
+console.log(couresName);
+console.log(coursePrice);
+
